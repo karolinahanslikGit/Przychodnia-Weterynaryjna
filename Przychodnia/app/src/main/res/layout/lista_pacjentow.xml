@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardPacjent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="16dp"
+
+        android:elevation="20dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textImie"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Imie"
+                android:textColor="#9966CC"
+                android:textFontWeight="500"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textGatunek1"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="Gatunek:"
+                android:textColor="#000000"
+                android:textFontWeight="400" />
+
+            <TextView
+                android:id="@+id/textGatunek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Gatunek"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textDataUr1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Data Urodzenia: "
+                android:textColor="#000000" />
+
+
+            <TextView
+                android:id="@+id/textDataUr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Data Urodzenia"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textDataPrzyj1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Data Przyjęcia : "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textDataPrzyj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Data Przyjęcia"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textWaga1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Waga: "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textWaga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Waga"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textWlascicel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Imię i nazwisko właściciela: "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textwlasciciel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Imię i nazwisko właściciela"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textNumerTel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Numer telefonu właściciela: "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textNumerTel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Nnumer telefonu"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textLekarz1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Lekarz Przyjmujący: "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textLekarz"
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Lekarz Przyjmujący"
+                android:textColor="#000000" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

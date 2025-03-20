@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD4C9E4"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardPacjent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        app:cardCornerRadius="20dp"
+        android:elevation="20dp"
+        app:cardBackgroundColor="#E3DFFD"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="291dp"
+            android:layout_margin="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textImie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-light"
+                android:text="Imie"
+                android:textColor="#3C2C5A"
+                android:textFontWeight="700"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textGatunek1"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/textImie"
+                android:layout_height="wrap_content"
+                android:text="Gatunek:"
+                android:textColor="#FF535377"
+                android:textSize="17sp"
+
+                 />
+
+            <TextView
+                android:id="@+id/textGatunek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_below="@+id/textImie"
+                android:text="Gatunek"
+                android:textSize="17sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textDataUr1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textGatunek"
+                android:text="Data Urodzenia: "
+                android:textSize="17sp"
+                android:textColor="#FF535377" />
+
+
+            <TextView
+                android:id="@+id/textDataUr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="125dp"
+                android:layout_below="@+id/textGatunek"
+                android:text="Data Urodzenia"
+                android:textSize="17sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textDataPrzyj1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textDataUr"
+                android:text="Data Przyjęcia : "
+                android:textSize="17sp"
+                android:textColor="#FF535377" />
+
+            <TextView
+                android:id="@+id/textDataPrzyj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:textSize="17sp"
+                android:layout_below="@+id/textDataUr"
+                android:text="Data Przyjęcia"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textWaga1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textDataPrzyj1"
+                android:text="Waga:"
+                android:textSize="17sp"
+                android:textColor="#FF535377" />
+
+            <TextView
+                android:id="@+id/textWaga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:textSize="17sp"
+                android:layout_below="@+id/textDataPrzyj1"
+                android:text="Waga"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textWlascicel1"
+                android:layout_width="wrap_content"
+                android:textSize="17sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textWaga"
+                android:text="Dane właściciela: "
+                android:textColor="#FF535377" />
+
+            <TextView
+                android:id="@+id/textwlasciciel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="138dp"
+                android:layout_below="@+id/textWaga"
+                android:textSize="17sp"
+                android:text="Imię i nazwisko właściciela"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textNumerTel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textwlasciciel"
+                android:textSize="17sp"
+                android:text="Nr. tel. właściciela: "
+                android:textColor="#FF535377" />
+
+            <TextView
+                android:id="@+id/textNumerTel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:textSize="17sp"
+                android:layout_below="@+id/textwlasciciel"
+                android:text="Numer telefonu"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textLekarz1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textNumerTel"
+                android:textSize="17sp"
+                android:text="Lekarz Przyjmujący: "
+                android:textColor="#FF535377" />
+
+            <TextView
+                android:id="@+id/textLekarz"
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="155dp"
+                android:textSize="17sp"
+                android:layout_below="@+id/textNumerTel"
+                android:text="Lekarz Przyjmujący"
+                android:textColor="#000000" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fabSendEdytuj"
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textLekarz"
+                android:src="@drawable/baseline_edit_24"
+                app:backgroundTint="#644E80"
+                app:tint="#FFFFFF"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fabSendUsun"
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="20dp"
+                android:foregroundTint="#FFFFFF"
+                android:layout_below="@+id/textLekarz"
+                android:foregroundTintMode="src_atop"
+                android:src="@drawable/baseline_delete_24"
+                app:backgroundTint="#644E80"
+
+                app:tint="#FFFFFF" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notatki"
+                android:layout_below="@+id/textLekarz"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/buttonNotatki"/>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

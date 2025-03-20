@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#FFD4C9E4"
+    tools:context=".DodajZwierze">
+
+
+    <EditText
+        android:id="@+id/editTextGatunek"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Gatunek"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextImie"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="0dp"
+        android:ems="10"
+        android:hint="Imię pacjenta"
+        android:layout_below="@id/editTextGatunek"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/editTextData"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="0dp"
+        android:ems="10"
+        android:inputType="date"
+        android:layout_below="@id/editTextImie"
+        android:hint="Data urodzenia pacjenta"/>
+
+    <EditText
+        android:id="@+id/editTextWaga"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="0dp"
+        android:ems="10"
+        android:layout_below="@id/editTextData"
+        android:inputType="number"
+        android:hint="Waga" />
+
+    <EditText
+        android:id="@+id/editTextWlasciciel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="72dp"
+        android:ems="10"
+        android:hint="Imie i Nazwisko właściciela"
+        android:inputType="textPersonName"
+        android:layout_below="@id/editTextWaga"
+        />
+
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:ems="10"
+        android:layout_below="@id/editTextWlasciciel"
+        android:hint="Numer telefonu właściciela"
+        android:inputType="phone"
+
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextNotatka"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/editTextPhone"
+
+
+
+        android:ems="10"
+        android:hint="Notatka"
+        android:inputType="textPersonName"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNotatka"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded"
+        android:layout_alignParentRight="true"
+        android:text="Dodaj do bazy"
+        />
+    <Button
+        android:id="@+id/buttonWroc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNotatka"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/rounded"
+        android:text="Wróc"
+        />
+
+</RelativeLayout>

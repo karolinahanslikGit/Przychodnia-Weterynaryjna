@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:background="#FFD4C9E4"
+    android:orientation="vertical"
+    tools:context=".LogInActivity">
+
+    <EditText
+        android:id="@+id/editTextLogin"
+        android:layout_width="300dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Mail"
+        android:layout_marginTop="100dp"
+        android:inputType="textPersonName"
+        android:layout_centerHorizontal="true"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="300dp"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:hint="Hasło"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editTextLogin"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/rounded"
+        android:text="Zaloguj/Zarejestruj" />
+
+</RelativeLayout>

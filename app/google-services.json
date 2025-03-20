@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "994647701103",
+    "project_id": "przychodnia2-15d4e",
+    "storage_bucket": "przychodnia2-15d4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994647701103:android:72e1f2738c3a60181b3f9a",
+        "android_client_info": {
+          "package_name": "com.example.przychodnia2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994647701103-vlithg0a8qk1f0pavueh73ojr1ctgcgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj334PgD9_r_fTKJW2KGuCzUiIR-BRI7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994647701103-vlithg0a8qk1f0pavueh73ojr1ctgcgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

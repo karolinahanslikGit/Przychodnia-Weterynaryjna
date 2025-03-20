@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD4C9E4">
+
+    <TextView
+        android:id="@+id/textViewPytanie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#3C2C5A"
+        android:textStyle="bold"
+        android:text="Czy na pewno chcesz usunąć Pacjenta z bazy ? "
+         />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/ButtonTak"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPytanie"
+        android:text="Tak"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded"/>
+
+</RelativeLayout>

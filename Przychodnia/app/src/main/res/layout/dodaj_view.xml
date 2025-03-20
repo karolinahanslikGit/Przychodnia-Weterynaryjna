@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".DodajZwierze">
+
+
+
+    <EditText
+        android:id="@+id/editTextGatunek"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Gatunek" />
+
+    <EditText
+        android:id="@+id/editTextImie"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Imie pacjenta"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/editTextData"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="Data urodzenia pacjenta"/>
+
+    <EditText
+        android:id="@+id/editTextWaga"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Waga" />
+
+    <EditText
+        android:id="@+id/editTextWlasciciel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Imie i Nazwisko Właściciela" />
+
+    <EditText
+    android:id="@+id/editTextPhone"
+    android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+    android:ems="10"
+    android:inputType="phone"
+        android:hint="Numer telefonu właściciela"/>
+
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="140dp"
+        android:layout_height="74dp"
+        android:text="Dodaj Pacjenta do bazy" />
+
+
+
+
+</LinearLayout>
